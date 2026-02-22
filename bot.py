@@ -4,7 +4,7 @@ import os
 api_id = int(os.environ.get("API_ID"))
 api_hash = os.environ.get("API_HASH"))
 
-channel_id = int(os.environ.get("CHANNEL"))
+channel_id = int(os.environ.get("CHANNEL")
 
 old_text = os.environ.get("OLD")
 new_text = os.environ.get("NEW")
