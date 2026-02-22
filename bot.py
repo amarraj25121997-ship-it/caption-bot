@@ -2,7 +2,7 @@ from telethon import TelegramClient, events
 import os
 
 api_id = int(os.environ.get("API_ID"))
-api_hash = os.environ.get("API_HASH"))
+api_hash = os.environ.get("API_HASH")
 
 channel_id = int(os.environ.get("CHANNEL")
 
